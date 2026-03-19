@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: aksdemocmc.azurecr.io/demo-app:v2
+          image: aksdemocmc.azurecr.io/demo-app:v99
           ports:
             - containerPort: 3000
           env:
